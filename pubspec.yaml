@@ -18,16 +18,20 @@ dependencies:
   firebase_core: ^3.9.0
   firebase_auth: ^5.3.4
   cloud_firestore: ^5.6.0
+  firebase_core_web: ^2.0.0
+  flutter_dotenv: ^5.1.0
   
   # PDF 및 OCR 관련 라이브러리
   google_mlkit_text_recognition: ^0.14.0
   syncfusion_flutter_pdf: ^28.1.36
   universal_html: ^2.2.3
   
+  # OpenAI API 및 HTTP 통신
+  dio: ^5.4.0
+  
   # UI 및 기타 라이브러리
   dynamic_color: ^1.6.8
   cupertino_icons: ^1.0.2
-  flutter_dotenv: ^5.1.0  # 최신 버전 추가
 
 dev_dependencies:
   flutter_test:
@@ -40,3 +44,4 @@ flutter:
   
   assets:
     - assets/
+    - .env  # .env 파일 경로 추가
