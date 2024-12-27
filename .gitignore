@@ -1,0 +1,50 @@
+# Firebase 관련 민감 정보
+**/firebase_options.dart
+**/google-services.json
+**/GoogleService-Info.plist
+
+# 환경 변수 및 보안 관련
+*.env
+*.env.local
+*.env.development
+*.env.production
+**/secrets.json
+
+# IDE 및 에디터 설정
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 빌드 및 캐시 폴더
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# 로그 및 임시 파일
+*.log
+*.swp
+.DS_Store
+
+# 안드로이드 및 iOS 빌드 아티팩트
+/android/app/debug
+/android/app/profile
+/android/app/release
+/ios/Pods/
+/ios/Runner/GoogleService-Info.plist
+
+# 개인 설정 및 워크스페이스 파일
+*.suo
+*.user
+*.sln.docstates
+
+# 테스트 및 커버리지 관련
+coverage/
+.test_coverage/
+
+# 플러그인 및 의존성 관련
+pubspec.lock

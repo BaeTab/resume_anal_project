@@ -1,0 +1,42 @@
+name: resume_analyzer_app
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+  
+  # Firebase 패키지
+  firebase_core: ^3.9.0
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.6.0
+  
+  # PDF 및 OCR 관련 라이브러리
+  google_mlkit_text_recognition: ^0.14.0
+  syncfusion_flutter_pdf: ^28.1.36
+  universal_html: ^2.2.3
+  
+  # UI 및 기타 라이브러리
+  dynamic_color: ^1.6.8
+  cupertino_icons: ^1.0.2
+  flutter_dotenv: ^5.1.0  # 최신 버전 추가
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  
+  assets:
+    - assets/
